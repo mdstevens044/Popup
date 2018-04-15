@@ -18,7 +18,8 @@
  *
  * Example
  * $testPopup = new Popup('testiframe.html', 'TestPopup', 'Test Popup', '300px', '200px', 1);
- * $popUp = $testPopup->createHTML();
+ * $testPopup->createHTML();
+ * $popUp = $testPopup->getHtmlCode();
  * Put $popup variable inside $pageContent string
  * Call popup by onclick="$testPopup->getId();"
  */
