@@ -42,7 +42,7 @@
       $this->title = $title;
       $this->width = $width;
       $this->height = $height;
-      $this->color = ($color == 1) ? "#228B22" : "#AD0000";
+      $this->color = ($color == 1) ? "#00CC66" : "#AD0000";
       $this->draggable = $draggable;
     }
 
