@@ -41,7 +41,7 @@
       $this->title = $title;
       $this->width = $width;
       $this->height = $height;
-      $this->color = ($color == 1) ? "228B22" : "#AD0000";
+      $this->color = ($color == 1) ? "#228B22" : "#AD0000";
       $this->draggable = $draggable;
     }
 
@@ -50,7 +50,7 @@
       $this->htmlCode = "
         <div id='div$this->id' style='border: 3px solid $this->color; border-radius: 10px; background-color: #fff; position: absolute; width: $this->width; height: $this->height; display: none; z-index: 1001;'>
           <h2 id='h2$this->id' style='background-color: $this->color; color: #fff; text-align: center; margin: 0px; padding: .25em; z-index: 1001;'>$this->title</h2>
-          <iframe id='$this->id' src='' style='display: none; position: absolute; width: 99%; height: 92%; z-index: 1001; overflow: hidden; border-radius: 0px 0px 8px 8px;' scrolling='no'></iframe>
+          <iframe id='$this->id' src='' style='display: none; position: absolute; width: 98.5%; height: 87.5%; z-index: 1001; overflow: hidden; border-radius: 0px 0px 8px 8px;' scrolling='no'></iframe>
         </div>
 
         <script>
